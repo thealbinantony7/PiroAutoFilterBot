@@ -5,8 +5,8 @@ services:
     env: python
     startCommand: python3 bot.py
     buildCommand: pip3 install -U -r requirements.txt
-    repo: https://github.com/thealbinantony7/PiroAutoFilterBot # optional
-    region: oregon # optional (defaults to oregon)
+    repo: https://github.com/thealbinantony7/PiroAutoFilterBot.git # optional
+    region: frankfurt # optional (defaults to frankfurt)
     plan: free # optional (defaults to starter)
     branch: master # optional (defaults to master)
     numInstances: 1 # optional (defaults to 1)
